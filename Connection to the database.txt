@@ -1,0 +1,14 @@
+<?php
+$dbhost="localhost";
+$dbbuser="root";
+$dbpass="";
+$dbname="login_sample_db";
+
+if(!$con=mysqli_connect($dbhost,$buser,$dbpass,$dbname))
+{
+
+die("failed to connect!");
+
+
+
+}
